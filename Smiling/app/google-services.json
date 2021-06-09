@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "413348836723",
+    "project_id": "facestatusnguyenvantrung",
+    "storage_bucket": "facestatusnguyenvantrung.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413348836723:android:e965a06dc02fe6c79e8106",
+        "android_client_info": {
+          "package_name": "com.example.statusfirebaseandroidnguyenvantrung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413348836723-4voh7sersk40mkm3iuk6isph3imujths.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyX3_WcMduOUc9-hxbzeWjnu5YKstCIcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413348836723-4voh7sersk40mkm3iuk6isph3imujths.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

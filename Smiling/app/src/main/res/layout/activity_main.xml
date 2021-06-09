@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgHappy"
+        android:layout_width="101dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hp1" />
+
+    <ImageView
+        android:id="@+id/imgNormal"
+        android:layout_width="106dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgHappy"
+        app:srcCompat="@drawable/hp3" />
+
+    <ImageView
+        android:id="@+id/imgUnHappy"
+        android:layout_width="93dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgHappy"
+        app:srcCompat="@drawable/hp2" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:layout_width="572dp"
+        android:layout_height="419dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/shapebackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgUnHappy" />
+
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_width="255dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/shapebutton"
+        android:text="SIGN IN"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgUnHappy" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="260dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/shapebutton2"
+        android:text="REGISTER"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/btnSignin"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignin" />
+</androidx.constraintlayout.widget.ConstraintLayout>
